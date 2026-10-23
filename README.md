@@ -34,3 +34,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+/**********************\*\***********************\*\***********************\*\***********************
+GitHub README
+Add a well-designed README.md that includes:
+Project name
+Short description
+Technologies used
+5 key features of the project
+
+# FitLog
+
+## Short Description
+
+FitLog is a modern, dark-themed fitness tracking web application built with Next.js App Router. It serves as your personal gym companion, allowing you to explore a rich workout library, manage your daily fitness plan with strict capacity caps, and persist your progress effortlessly via local storage.
+
+## Technologies Used
+
+- **Framework:** Next.js (App Router, Server & Client Components)
+- **UI Library & Icons:** React, React Icons (`react-icons`)
+- **Styling:** Tailwind CSS
+- **Notifications:** React Toastify (`react-toastify`)
+- **State Management:** React Context API (`WorkOutContext`)
+- **Data Persistence:** Browser LocalStorage
+
+## 5 key features of the project
+
+1. **Interactive Workout Library:** Browse a comprehensive collection of exercises fetched dynamically with caching, complete with custom image cards, tags, and detailed breakdowns.
+2. **Dynamic Today's Plan Logger:** Add workouts directly to your daily routine with a built-in capacity cap (maximum 5 active lifts) to keep your focus sharp.
+3. **Save for Later Bookmarking:** Seamlessly bookmark and store your favorite exercises in a dedicated tab for quick access during future training sessions.
+4. **Interactive Completion Tracking:** Check off completed lifts with a line-through UI toggle or remove items dynamically from your active plan or saved list.
+5. **Robust State & Toast Notifications:** Enjoy smooth data persistence synced across browser sessions via LocalStorage, accompanied by animated alert toasts (`react-toastify`) for real-time user feedback.
+   /**********************\*\***********************\*\***********************\*\***********************
